@@ -76,6 +76,11 @@ body {
   row-gap: 48px;
   column-gap: 24px;
 }
+.gallery-item {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
 /*task-3*/
 #name-input {
   font-weight: 400;
