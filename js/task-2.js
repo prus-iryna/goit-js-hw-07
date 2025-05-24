@@ -29,7 +29,7 @@ const galleryItem = document.querySelector(".gallery");
 const createGalleeryMarkup = (arr) => {
   return arr
     .map((item) => {
-      return `<li><img src="${item.url}" alt="${item.alt}"></li>`;
+      return `<li class="gallery-item"><img src="${item.url}" alt="${item.alt}" width="360" height="300" /></li>`;
     })
     .join("");
 };
